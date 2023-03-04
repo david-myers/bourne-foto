@@ -1,0 +1,46 @@
+{% for block in section.blocks %}
+  <div {{ block.shopify_attributes }}>
+    <div class="robin-pro" id="{{ block.settings.gallery_id }}"></div>
+  </div>
+{% endfor %}
+
+
+{% schema %}
+  {
+    "name": "Robin PRO Image Gallery",
+    "blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+          {
+            "label": "Gallery",
+            "type": "select",
+            "id": "gallery_id",
+            "options": [
+{
+  "value": "9259a499-a962-4397-a49b-59d06123120c",
+  "label": "Models"
+},
+{
+  "value": "50464099-5fa7-4dd7-9ac7-f2795c45c9d8",
+  "label": "Mary"
+},
+{
+  "value": "542eee22-a55a-4f57-bc8f-3f3d0cb810c7",
+  "label": "Sana"
+}
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Robin PRO Image Gallery",
+        "category": "Robin PRO Image Gallery App",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

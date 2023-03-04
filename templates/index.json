@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "167742110645ed24c7": {
+      "type": "apps",
+      "blocks": {
+        "798e794f-eed8-47f3-bac7-1b097f4e7984": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "disabled": true,
+          "settings": {
+            "type": "gallery",
+            "id": 1
+          }
+        }
+      },
+      "block_order": [
+        "798e794f-eed8-47f3-bac7-1b097f4e7984"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "ff89fe51-c1b7-4346-b9ce-aff976af1935": {
+      "type": "multicolumn",
+      "blocks": {
+        "5b9b090f-3f18-47af-84be-ae71da9b9640": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sana1.jpg",
+            "title": "Sana Rehman",
+            "text": "<p>On a sunset cruise<\/p>",
+            "link_label": "see more",
+            "link": "shopify:\/\/pages\/best-of-sana"
+          }
+        },
+        "template--18000276095274__ff89fe51-c1b7-4346-b9ce-aff976af1935-167742328144b0856b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_0231.jpg",
+            "title": "Mary",
+            "text": "<p>Mary at FashionBar LLC<\/p>",
+            "link_label": "see more",
+            "link": "shopify:\/\/pages\/mary"
+          }
+        },
+        "f4c9306a-1c78-40e4-a83d-ab4b262f3b7c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_0065-Edit-Edit.jpg",
+            "title": "Anelya",
+            "text": "<p>Best of Anelya<\/p>",
+            "link_label": "see more",
+            "link": "shopify:\/\/pages\/anelya"
+          }
+        }
+      },
+      "block_order": [
+        "5b9b090f-3f18-47af-84be-ae71da9b9640",
+        "template--18000276095274__ff89fe51-c1b7-4346-b9ce-aff976af1935-167742328144b0856b-0",
+        "f4c9306a-1c78-40e4-a83d-ab4b262f3b7c"
+      ],
+      "settings": {
+        "title": "Models I Have Photographed",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "167742110645ed24c7",
+    "ff89fe51-c1b7-4346-b9ce-aff976af1935"
+  ]
+}
