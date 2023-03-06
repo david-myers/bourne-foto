@@ -637,6 +637,9 @@
         </a>
       {%- endif -%}
 
+
+{% comment %}
+# uncomment this to bring back the cart icon on the header
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -655,6 +658,9 @@
           </div>
         {%- endif -%}
       </a>
+{% endcomment %}
+
+
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
